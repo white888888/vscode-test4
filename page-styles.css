@@ -1,6 +1,6 @@
 .box{
-    background: color #e4e4e4;
-    background-image: url('img/images.jpg');
+    background-color: #e4e4e4;
+    background-image: url('anime.png');
     background-repeat: repeat-x;
 }
 .scroll{

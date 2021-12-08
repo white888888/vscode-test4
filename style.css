@@ -1,6 +1,7 @@
 .box{
     background-color: #be5d5d;
-    background-image: url('img/anime.png');
+    background-image:
+      url('anime.png');
     background-repeat: no-repeat;
     background-position: right top;
 }
@@ -17,6 +18,4 @@
     background-attachment:local;
 }
 
-h2{
-    font:100px;
-}
+
