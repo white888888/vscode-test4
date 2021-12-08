@@ -1,0 +1,17 @@
+.box{
+    background: color #e4e4e4;
+    background-image: url('img/images.jpg');
+    background-repeat: repeat-x;
+}
+.scroll{
+    background-attachment: scroll;
+    /* this is default value */
+}
+
+.fixed{
+    background-attachment:fixed;
+}
+
+.local{
+    background-attachment:local;
+}

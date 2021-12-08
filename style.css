@@ -1,0 +1,18 @@
+.box{
+    background-color: #be5d5d;
+    background-image: url('img/anime.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.scroll{
+    background-attachment: scroll;
+    /* this is default value */
+}
+
+.fixed{
+    background-attachment:fixed;
+}
+
+.local{
+    background-attachment:local;
+}
