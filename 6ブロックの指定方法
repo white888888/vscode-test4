@@ -1,0 +1,84 @@
+/* html */
+<!DOCTYPE html>
+<html>
+<head>
+   <meta  charset="utf-8">
+    <title>ボックスの考え方</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+    <!-- htmlファイルでフォントスタイル設定 -->
+    <style type="text/css">
+
+        h1{
+            color:blue;
+        }
+        
+        h2{
+            color: red;
+        }
+
+        h3{
+            color: gray;
+        }
+    </style>
+    
+    <div>
+        <div class="top">top</div>
+        <div class="middle">middle</div>
+        <div class="bottom">bottom</div>
+    </div>
+</head>
+<body>
+    <h1>タイトル１</h1>
+    <p>qqqssssss</p>
+
+    <h2>タイトル２</h2>
+
+    <h3>タイトル３</h3>
+
+    
+</body>
+</html>
+    /* css */
+    .top, .middle, .bottom{
+        margin:0;
+        height: 150px;
+        width:150px;
+        text-align:center;
+        }
+    
+        .top{
+            background-color:red;
+            color:white;
+            position: relative;
+            top:10px;
+            left:10px;
+            /* 重なりの優先度を決められる */
+            z-index:20;
+        }
+        .middle{
+            background-color:yellow;
+            color:black;
+            position: absolute;
+            top: 50px;
+            left:50px;
+            z-index:10;
+        }
+        .bottom{
+            background-color:lightblue;
+            color:black;
+            position: absolute;
+            top:90px;
+            left:90px;
+            z-index:30;
+        }
+    
+        div{
+            padding:10px 20px;
+            background-color:#fff;
+            width:400px;
+            margin:20px auto;
+            position:relative;
+        }
+    
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>タイトル</title>
+    
+    <style type="text/css">
+        h1{
+            color:blue;
+        }
+        
+        h2{
+            color: red;
+        }
+
+        h3{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>タイトル１</h1>
+    <p>qqqssssss</p>
+
+    <h2>タイトル２</h2>
+
+    <h3>タイトル３</h3>
+
+    
+</body>
+</html>
